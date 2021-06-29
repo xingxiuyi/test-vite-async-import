@@ -1,0 +1,20 @@
+{
+  "name": "@testproject/async-package",
+  "version": "1.0.0-alpha.0",
+  "private": true,
+  "description": "async-package",
+  "author": "xingxiuyi",
+  "license": "Apache-2.0",
+  "scripts": {
+    "serve": "vite",
+    "build": "vite build --debug --mode production",
+    "build:debug": "vite build --debug --mode production"
+  },
+  "dependencies": {
+    "@testproject/async-lib": "1.0.0-alpha.0",
+    "vue": "^3.1.2"
+  },
+  "devDependencies": {
+    "vite": "^2.3.8"
+  }
+}
