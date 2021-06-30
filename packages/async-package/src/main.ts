@@ -6,4 +6,4 @@ export async function simpleTest() {
 }
 
 createApp(App).mount("#app");
-simpleTest();
+simpleTest().then((d) => console.log("simpleTest output=", JSON.stringify(d)));
